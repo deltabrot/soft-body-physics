@@ -1,9 +1,9 @@
 #include <iostream>
 #include <cmath>
 #include <SDL.h>
-#include "Spring.h"
-#include "Vertex.h"
-#include "VectorMath.h"
+#include "spring.h"
+#include "vertex.h"
+#include "vectormath.h"
 
 Spring::Spring(Vertex & v1, Vertex & v2, float stiffness, float length){
 	this->v1 = &v1;

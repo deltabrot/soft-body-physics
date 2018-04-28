@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-#include "VectorMath.h"
+#include "vectormath.h"
 
 float VectorMath::angle(float x1, float y1, float x2, float y2){
 	if(x2-x1 == 0){

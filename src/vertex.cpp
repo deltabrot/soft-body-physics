@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include <SDL.h>
-#include "Vertex.h"
+#include "vertex.h"
 
 Vertex::Vertex(float x, float y, float mass){
 	this->x = x;

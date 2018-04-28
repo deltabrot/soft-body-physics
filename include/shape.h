@@ -3,8 +3,8 @@
 
 #include <vector>
 #include <SDL.h>
-#include "Vertex.h"
-#include "Spring.h"
+#include "vertex.h"
+#include "spring.h"
 
 class Shape{
 	public:

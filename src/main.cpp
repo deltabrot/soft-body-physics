@@ -1,10 +1,10 @@
 #include <iostream>
 #include <SDL.h>
 #include <ctime>
-#include "Vertex.h"
-#include "Spring.h"
-#include "VectorMath.h"
-#include "Shape.h"
+#include "vertex.h"
+#include "spring.h"
+#include "vectormath.h"
+#include "shape.h"
 
 bool init();
 void kill();
@@ -51,7 +51,7 @@ int main(int argc, char** args) {
 			fps = CLOCKS_PER_SEC / delta_ticks;
 		}
 		if(clock() - oldClock > fpsRate){
-			std::cout << "FPS: "<< fps << std::endl;
+			//std::cout << "FPS: "<< fps << std::endl;
 			oldClock = clock();
 		}
 

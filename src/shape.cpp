@@ -1,9 +1,9 @@
 #include <iostream>
 #include <cmath>
 #include <vector>
-#include "Vertex.h"
-#include "Spring.h"
-#include "Shape.h"
+#include "vertex.h"
+#include "spring.h"
+#include "shape.h"
 
 Shape::Shape(){
 }

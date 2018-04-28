@@ -2,7 +2,7 @@
 #define __SPRING_H__
 
 #include <SDL.h>
-#include "Vertex.h"
+#include "vertex.h"
 
 class Spring{
 	public:
