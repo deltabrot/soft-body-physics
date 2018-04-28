@@ -19,4 +19,4 @@ $(BUILDDIR)/%.o: $(SRCDIR)/%.cpp
 	$(CC) $(CFLAGS) $(INC) -c $< -o $@
 
 clean:
-	@echo "Removing build/"; rm -r $(BUILDDIR)
+	@echo "Removing $(BUILDDIR)/"; rm -r $(BUILDDIR)
