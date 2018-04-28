@@ -8,9 +8,6 @@ OBJECTS = $(shell find $(SRCDIR) -name "*.cpp" | sed -r "s|$(SRCDIR)/([a-zA-Z]+)
 
 default: main
 
-#main: $(BUILDDIR)/main.o $(BUILDDIR)/shape.o $(BUILDDIR)/spring.o $(BUILDDIR)/vectormath.o $(BUILDDIR)/vertex.o 
-#	$(CC) $(CFLAGS) $(INC) -o $(TARGET) $^
-
 main: $(OBJECTS)
 	$(CC) $(CFLAGS) $(INC) -o $(TARGET) $^
 
